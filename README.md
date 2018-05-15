@@ -27,3 +27,6 @@ Impotant: be very careful!!!
   
 # Attention
 Before making changes, calculate the fan speed!!!
+
+# Youtube
+    https://youtu.be/qd9CtLojvxs
