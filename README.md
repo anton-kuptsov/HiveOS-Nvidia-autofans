@@ -66,5 +66,11 @@ and apply your HiveOS OC settings from your account (restore your default fan se
 - 72 C : 84 %
 - 75 C : 97 %
 
+ If you change MIN_TEMP=63 and MAX_TEMP=68 then
+- 60 C : 44 %
+- 65 C : 57 %
+- 69 C : 71 %
+- 71 C : 86 %
+
 # Youtube
     https://youtu.be/qd9CtLojvxs
