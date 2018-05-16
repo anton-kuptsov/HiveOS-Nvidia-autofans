@@ -72,11 +72,20 @@ root@rig: screen -dmS autofan /home/user/autofan.sh
 - 72 C : 84 %
 - 75 C : 97 %
 
- If you change MIN_TEMP=63 and MAX_TEMP=68 then
+If you change MIN_COEF=85 only then
+- 55 C : 35 %
+- 60 C : 45 %
+- 65 C : 55 %
+- 69 C : 69 %
+- 71 C : 80 %
+
+ If you change MIN_TEMP=63 and MAX_TEMP=68 only then
 - 60 C : 44 %
 - 65 C : 57 %
 - 69 C : 78 %
 - 71 C : 86 %
+
+
 
 # Youtube
     https://youtu.be/qd9CtLojvxs
