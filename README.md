@@ -75,7 +75,7 @@ root@rig: screen -dmS autofan /home/user/autofan.sh
  If you change MIN_TEMP=63 and MAX_TEMP=68 then
 - 60 C : 44 %
 - 65 C : 57 %
-- 69 C : 71 %
+- 69 C : 78 %
 - 71 C : 86 %
 
 # Youtube
