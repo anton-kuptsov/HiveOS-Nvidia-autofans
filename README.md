@@ -21,6 +21,7 @@ Impotant: be very careful!!!
      screen -ls
      ```
      You must see autofan process. 
+     
      Or (from console, not over ssh):
      ```
      screen -r autofan
