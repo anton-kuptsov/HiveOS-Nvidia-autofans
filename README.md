@@ -52,10 +52,16 @@ Impotant: be very careful!!!
 Before making changes, calculate the fan speed!!!
 
 If you want kill the script autofan.sh:
-    ```      
-    pkill autofan.sh
-    ```
+```      
+root@rig: pkill autofan.sh
+```
 and apply your HiveOS OC settings from your account (restore your default fan settings)!
+
+If you want start the script again:
+
+```
+root@rig: screen -dmS autofan /home/user/autofan.sh
+```
 
 # Examples of temperature and fan speed (default script settings)
 - 55 C : 33 %
