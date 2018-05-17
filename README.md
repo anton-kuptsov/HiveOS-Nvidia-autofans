@@ -15,7 +15,7 @@ Impotant: be very careful!!!
      ```
      Terminate process Ctrl+C
      
- - Reboot system
+ - do command ```screen -dmS autofan /home/user/autofan.sh``` or reboot system
  - Test:  
      ```
      screen -ls
