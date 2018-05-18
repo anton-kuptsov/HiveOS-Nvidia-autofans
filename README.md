@@ -69,7 +69,7 @@ If you change MIN_COEF=85 only then
 - 71 C : 86 %
 
 # Youtube
-    https://youtu.be/qd9CtLojvxs
+    https://youtu.be/mteaBR5XQ-o
     
 # Donate
 
