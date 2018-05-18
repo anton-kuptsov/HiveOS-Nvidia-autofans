@@ -39,12 +39,12 @@ root@rig: pkill autofan.sh
 ```
 and apply your HiveOS OC settings from your account (restore your default fan settings)!
 
-If you want start the script again (for method 1):
+If you want start the script again do command:
 
 ```
 root@rig: screen -dmS autofan /home/user/autofan.sh
 ```
-or  just restart the miner (for method 2).
+or  just reboot.
 
 # Examples of temperature and fan speed (default script settings)
 - 55 C : 33 %
