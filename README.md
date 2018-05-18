@@ -7,7 +7,7 @@ Use and change at your own risk! Not responsible for any damages or issues, chan
 # Run (thanks lexandr0s)
 Impotant: be very careful!!!
 
- - Put autofan.sh and xinit.user.sh to /home/user/ folder. 
+ - Put autofan.sh and xinit.user.sh to ```/home/user/``` folder. 
  - Change permissions to ```-rwxr-xr-x (755)``` (chmod +x /home/user/autofan.sh and chmod +x /home/user/xinit.user.sh)
  - Test:
      ```
