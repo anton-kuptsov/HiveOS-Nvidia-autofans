@@ -68,6 +68,9 @@ If you change MIN_COEF=85 only then
 - 69 C : 78 %
 - 71 C : 86 %
 
+Calc https://docs.google.com/spreadsheets/d/1WIFmyyYiKxEmjZeXVx17DSbxZVzSR38jgQolwdpGHNI/edit?usp=sharing 
+(you can change MIN_COEF and MAX_COEF)
+
 # Youtube
     https://youtu.be/mteaBR5XQ-o
     
