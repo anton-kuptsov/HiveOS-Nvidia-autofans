@@ -42,6 +42,11 @@ while true
                     then
 						FAN_SPEED=$(( $GPU_TEMP *(($GPU_TEMP - $MAX_TEMP) * 4 + $MAX_COEF)/100 ))
                 fi
+		#Set FAN SPEED not more 100%. Thanks WayneCollins.
+		if [ $FAN_SPEED -gt 100 ]
+				then
+					FAN_SPEED=100
+		fi
                 nvidia-settings -a [fan:$i]/GPUTargetFanSpeed=$FAN_SPEED > /dev/null
                 echo "GPU${i} ${GPU_TEMP}°C -> ${FAN_SPEED}%"
        done
