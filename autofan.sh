@@ -8,6 +8,8 @@ export DISPLAY=:0
 
 DELAY=10
 
+MIN_SPEED=20
+
 MIN_TEMP=65
 MAX_TEMP=70
 
@@ -33,6 +35,10 @@ while true
                 if [ $GPU_TEMP -le $MIN_TEMP ]
                     then
                         FAN_SPEED=$(($GPU_TEMP * ($MIN_COEF-($MIN_TEMP - $GPU_TEMP) * 2)/100))
+			if [ $FAN_SPEED -le $MIN_SPEED ] 
+			then
+		        	FAN_SPEED=$MIN_SPEED 
+			fi
 
                 elif [[ $GPU_TEMP > $MIN_TEMP ]] && [[ $GPU_TEMP < $MAX_TEMP ]]
                     then
